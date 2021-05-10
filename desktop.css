@@ -1,3 +1,42 @@
-@media screen and(min-width: 768px) {
-    
+@media screen and (min-width: 768px) {
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .logo {
+        margin-left: 3rem; 
+    }
+    .search-bar {
+        margin-right: 3rem; 
+    }
+    .main--top--content {
+        height: 21rem;
+    }
+    .main--mid--content {
+        height: 14rem;
+        margin-left: 3rem; 
+        margin-right: 3rem; 
+    }
+    .img__wrapper {
+        flex-direction: row;
+        justify-content: space-around;
+        margin-top: 2rem;
+    }
+    .img__container {
+        width: 20%;
+    }
+    .img__container__low {
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        height: 25%;
+        width: 25%;
+        font-size: 12px;
+    }
+    footer {
+        flex-direction: row;
+        justify-content: space-around;
+        padding-left: 3rem; 
+        padding-right: 3rem; 
+    }
 }
