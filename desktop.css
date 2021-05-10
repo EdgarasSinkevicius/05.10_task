@@ -10,12 +10,14 @@
         margin-right: 3rem; 
     }
     .main--top--content {
-        height: 21rem;
+        height: 28rem;
+    
     }
     .main--mid--content {
         height: 14rem;
         margin-left: 3rem; 
         margin-right: 3rem; 
+        margin-top: -4rem;
     }
     .img__wrapper {
         flex-direction: row;
@@ -29,14 +31,18 @@
         display: flex;
         align-items: center;
         justify-content: space-around;
+        font-size: 12px;
         height: 25%;
         width: 25%;
-        font-size: 12px;
     }
     footer {
         flex-direction: row;
         justify-content: space-around;
+        height: 150px;
         padding-left: 3rem; 
         padding-right: 3rem; 
+    }
+    .no-marg {
+        margin-bottom: 0;
     }
 }
